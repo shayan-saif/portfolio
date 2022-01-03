@@ -1,0 +1,129 @@
+{
+  "landing": {
+    "title": "Hi there!",
+    "body": [
+      "My name is Shayan and I'm an aspiring Software/ML Engineer and AWS Cloud Solutions Architect based in Oshawa, Ontario. At the moment, I'm in my final year of studies for Bachelor's of IT at the University of Ontario Institute of Technology.",
+      "I have a diverse set of skills, ranging from frontend development using JavaScript frameworks such as Angular and React to implementing REST APIs using technologies like Node.js and Python. Additionally, I have worked with both SQL & NoSQL databases for creating full stack applications."
+    ],
+    "imageUrl": "",
+    "linkedin": "https://www.linkedin.com/in/shayansaif/",
+    "github": "https://github.com/shayan-saif"
+  },
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect - Associate",
+      "description": "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
+      "issuer": "Amazon Web Services",
+      "dateAcquired": "January 19, 2021",
+      "imgUrl": "https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png",
+      "link": "https://aws.amazon.com/certification/certified-developer-associate/"
+    },
+    {
+      "name": "AWS Certified Developer - Associate",
+      "description": "Earners of this certification have a comprehensive understanding of application life-cycle management. They demonstrated proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline. Badge owners are able to develop, deploy, and debug cloud-based applications that follow AWS best practices.",
+      "issuer": "Amazon Web Services",
+      "dateAcquired": "February 19, 2021",
+      "imgUrl": "https://images.credly.com/size/340x340/images/598f6ac6-2dbd-4394-8ae4-943b2f4c43ea/AWS-Developer-Associate-2020.png",
+      "link": "https://aws.amazon.com/certification/certified-developer-associate/"
+    },
+    {
+      "name": "Certified Kubernetes Application Developer",
+      "description": "Earners of this designation demonstrated the skills, knowledge and competencies to perform the responsibilities of a Kubernetes Application Developer. Earners are able to define application resources and use core primitives to build, monitor, and troubleshoot scalable applications and tools in Kubernetes. The skills and knowledge demonstrated by earners include Core Concepts, Configuration, Multi-Container Pods, Observability, Pod Design, Services & Networking, State Persistence.",
+      "issuer": "The Linux Foundation",
+      "dateAcquired": "February 19, 2021",
+      "imgUrl": "https://images.credly.com/size/340x340/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png",
+      "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/"
+    }
+  ],
+  "experience": [
+    {
+      "type": "internship",
+      "org": "Kinaxis",
+      "orgImage": "",
+      "title": "Software Engineer",
+      "startDate": "09/2021",
+      "endDate": "08/2022",
+      "responsibilities": [
+        "Building Control Plane for the AI Platform",
+        "Assisting in the maintenance of one of Kinaxis' AI-based retail products",
+        "Creating automated API tests using JUnit and RestAssured frameworks for Java"
+      ]
+    },
+    {
+      "type": "internship",
+      "org": "GoEmerald",
+      "orgImage": "",
+      "title": "Cloud Innovation Engineer",
+      "startDate": "05/2021",
+      "endDate": "08/2021",
+      "responsibilities": [
+        "Building Control Plane for the AI Platform",
+        "Assisting in the maintenance of one of Kinaxis' AI-based retail products",
+        "Creating automated API tests using JUnit and RestAssured frameworks for Java"
+      ]
+    },
+    {
+      "type": "education",
+      "degree": "Bachelor's of Information Technology",
+      "length": "4",
+      "org": "University of Ontario Institute of Technology",
+      "startDate": "09/2018",
+      "endDate": "12/2022",
+      "coursesCompleted": {
+        "technical": [
+          "Python Programming",
+          "Object Oriented Design",
+          "Computer Security",
+          "Databases",
+          "Machine Learning",
+          "Web & Script Programming"
+        ],
+        "business": [
+          "Accounting",
+          "Finance",
+          "Statistics",
+          "Business Computer Applications",
+          "Operations Management"
+        ]
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's of Information Technology",
+      "length": "4",
+      "university": "University of Ontario Institute of Technology",
+      "startDate": "September 2018",
+      "endDate": "December 2022",
+      "coursesCompleted": {
+        "technical": [
+          "Python Programming",
+          "Object Oriented Design",
+          "Computer Security",
+          "Databases",
+          "Machine Learning",
+          "Web & Script Programming"
+        ],
+        "business": [
+          "Accounting",
+          "Finance",
+          "Statistics",
+          "Business Computer Applications",
+          "Operations Management"
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Machine Learning - Housing Prediction",
+      "description": "For my final project in INFR 3700 Machine Learning, I paired up with a fellow classmate to explore different regression algorithms and predict the price of a house based on several factors, such as square footage, latitude, and number of beds.",
+      "stack": [
+        {
+          "label": "Python",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
