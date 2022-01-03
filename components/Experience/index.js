@@ -2,7 +2,7 @@ import Page from "../Page";
 import { Box, Typography } from "@mui/material";
 import { Timeline, TimelineItem, TimelineContent, TimelineOppositeContent, TimelineSeparator, TimelineDot, TimelineConnector } from "@mui/lab";
 
-export const Experience = ({ data }) => {
+export const Experience = ({ anchor, data }) => {
     const getDuration = (startDate, endDate) => {
         const now = new Date();
 
@@ -19,10 +19,24 @@ export const Experience = ({ data }) => {
         }
     }
 
+    const getStatus = (endDate) => {
+        const now = new Date();
+
+        let end = endDate.split("/");
+        end = new Date(end[0] + "/01/" + end[1]);
+
+        if (end < now) {
+            return "success"
+        } else {
+            return "warning"
+        }
+
+    }
+
     return (
         <div>
-            <Page>
-                <Box mb="12rem">
+            <Page id={anchor}>
+                <Box mb="4rem">
                     <Typography fontSize="2.5rem" marginBottom="3rem" fontWeight="bold">Experience</Typography>
                 </Box>
                 <Timeline>
@@ -35,7 +49,7 @@ export const Experience = ({ data }) => {
                                         <Typography>{exp.degree}</Typography>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
-                                        <TimelineDot color="complete" />
+                                        <TimelineDot color={getStatus(exp.endDate)} />
                                         <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent>
@@ -53,7 +67,7 @@ export const Experience = ({ data }) => {
                                         </Box>
                                     </TimelineOppositeContent>
                                     <TimelineSeparator>
-                                        <TimelineDot color="ongoing" />
+                                        <TimelineDot color={getStatus(exp.endDate)} />
                                         <TimelineConnector />
                                     </TimelineSeparator>
                                     <TimelineContent>
@@ -69,3 +83,5 @@ export const Experience = ({ data }) => {
         </div>
     )
 }
+
+export default Experience;

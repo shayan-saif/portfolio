@@ -16,7 +16,7 @@
       "issuer": "Amazon Web Services",
       "dateAcquired": "January 19, 2021",
       "imgUrl": "https://images.credly.com/size/340x340/images/4bc21d8b-4afe-4fbd-9a90-a9de8bf7b240/AWS-SolArchitect-Associate-2020.png",
-      "link": "https://aws.amazon.com/certification/certified-developer-associate/"
+      "link": "https://www.credly.com/badges/d4efd21a-bed7-4b1e-a158-1daaa2a2d903/public_url"
     },
     {
       "name": "AWS Certified Developer - Associate",
@@ -24,15 +24,15 @@
       "issuer": "Amazon Web Services",
       "dateAcquired": "February 19, 2021",
       "imgUrl": "https://images.credly.com/size/340x340/images/598f6ac6-2dbd-4394-8ae4-943b2f4c43ea/AWS-Developer-Associate-2020.png",
-      "link": "https://aws.amazon.com/certification/certified-developer-associate/"
+      "link": "https://www.credly.com/badges/9d8b847c-5406-4292-961b-7c24fabfec47/public_url"
     },
     {
       "name": "Certified Kubernetes Application Developer",
       "description": "Earners of this designation demonstrated the skills, knowledge and competencies to perform the responsibilities of a Kubernetes Application Developer. Earners are able to define application resources and use core primitives to build, monitor, and troubleshoot scalable applications and tools in Kubernetes. The skills and knowledge demonstrated by earners include Core Concepts, Configuration, Multi-Container Pods, Observability, Pod Design, Services & Networking, State Persistence.",
       "issuer": "The Linux Foundation",
-      "dateAcquired": "February 19, 2021",
+      "dateAcquired": "December 03, 2021",
       "imgUrl": "https://images.credly.com/size/340x340/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png",
-      "link": "https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/"
+      "link": "https://www.credly.com/badges/33e8bd8f-63d6-48ef-8a8c-5d212f603015?source=linked_in_profile"
     }
   ],
   "experience": [

@@ -3,6 +3,7 @@ import { yellow, green, gray } from "@mui/material/colors";
 
 export const theme = createTheme({
     palette: {
+        type: "dark",
         secondary: {
             main: 'rgba(80, 80, 80, 1)',
         },
