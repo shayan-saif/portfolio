@@ -1,7 +1,8 @@
-import { ThemeProvider } from "@mui/material";
 import data from "./api/data.json";
+import { ThemeProvider } from "@mui/material";
 import { theme } from "../theme";
 import { useState, useEffect } from "react";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Landing from "../components/Landing";
 import Experience from "../components/Experience";
@@ -45,6 +46,9 @@ export default function Home() {
   return (
     <ThemeProvider theme={theme}>
       <div>
+        <Head>
+          <title>Shayan Saif</title>
+        </Head>
         <Navbar links={links} windowSize={window} />
         <Landing anchor="home" data={data.landing} windowSize={window} />
         <Experience anchor="experience" data={data.experience} />
