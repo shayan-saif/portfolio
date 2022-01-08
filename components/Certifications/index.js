@@ -23,8 +23,8 @@ const Certifications = ({ anchor, data, windowSize }) => {
     }
 
     return (
-        <div>
-            <Page id={anchor}>
+        <div id={anchor}>
+            <Page>
                 <Box mb="4rem">
                     <Typography fontSize="2.5rem" marginBottom="3rem" fontWeight="bold">Certifications</Typography>
                 </Box>

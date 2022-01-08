@@ -34,8 +34,8 @@ export const Experience = ({ anchor, data }) => {
     }
 
     return (
-        <div>
-            <Page id={anchor}>
+        <div id={anchor}>
+            <Page>
                 <Box mb="4rem">
                     <Typography fontSize="2.5rem" marginBottom="3rem" fontWeight="bold">Experience</Typography>
                 </Box>
