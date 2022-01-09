@@ -6,8 +6,8 @@ import arrow from "../../public/arrow_down.png";
 
 const Landing = ({ anchor, data, windowSize }) => {
     return (
-        <div id={anchor}>
-            <Page windowSize={windowSize}>
+        <div id={windowSize > 680 && anchor}>
+            <Page id={windowSize < 680 && anchor} windowSize={windowSize}>
                 <Box mb="12rem">
                     <Typography fontSize="2.5rem" marginBottom="3rem" fontWeight="bold">{data.title}</Typography>
                     {data.body.map((paragraph, index) => <Typography fontSize="1.3rem" marginBottom="2rem" key={index}>{paragraph}</Typography>)}
@@ -33,9 +33,9 @@ const Landing = ({ anchor, data, windowSize }) => {
                     display: "flex",
                     gap: "2rem",
                 }}>
-                    
-                    <a target="_blank" href={data.linkedin} rel="noopener noreferrer"><Button variant="contained" color="primary" sx={{ display: "flex", gap: "1rem"}}><LinkedIn /> LinkedIn</Button></a>
-                    <a target="_blank" href={data.github} rel="noopener noreferrer"><Button variant="contained" color="secondary" sx={{ display: "flex", gap: "1rem"}}><GitHub /> GitHub</Button></a>
+
+                    <a target="_blank" href={data.linkedin} rel="noopener noreferrer"><Button variant="contained" color="primary" sx={{ display: "flex", gap: "1rem" }}><LinkedIn /> LinkedIn</Button></a>
+                    <a target="_blank" href={data.github} rel="noopener noreferrer"><Button variant="contained" color="secondary" sx={{ display: "flex", gap: "1rem" }}><GitHub /> GitHub</Button></a>
                 </Box>
             </Page>
         </div>

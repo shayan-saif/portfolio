@@ -2,7 +2,7 @@ import Page from "../Page";
 import { Box, Typography } from "@mui/material";
 import { Timeline, TimelineItem, TimelineContent, TimelineOppositeContent, TimelineSeparator, TimelineDot, TimelineConnector } from "@mui/lab";
 
-export const Experience = ({ anchor, data }) => {
+export const Experience = ({ anchor, data, windowSize }) => {
     const getDuration = (startDate, endDate) => {
         const now = new Date();
 
@@ -34,8 +34,8 @@ export const Experience = ({ anchor, data }) => {
     }
 
     return (
-        <div id={anchor}>
-            <Page>
+        <div id={windowSize > 680 && anchor}>
+            <Page id={windowSize < 680 && anchor}>
                 <Box mb="4rem">
                     <Typography fontSize="2.5rem" marginBottom="3rem" fontWeight="bold">Experience</Typography>
                 </Box>

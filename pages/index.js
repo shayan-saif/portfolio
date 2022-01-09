@@ -51,7 +51,7 @@ export default function Home() {
         </Head>
         <Navbar links={links} windowSize={window} />
         <Landing anchor="home" data={data.landing} windowSize={window} />
-        <Experience anchor="experience" data={data.experience} />
+        <Experience anchor="experience" data={data.experience} windowSize={window} />
         <Certifications anchor="certifications" data={data.certifications} windowSize={window} />
       </div>
     </ThemeProvider>
